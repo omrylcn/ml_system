@@ -1,0 +1,15 @@
+
+### 1- Basic App 
+
+#### Definitions
+This is a simple docker example. It is for introduction. It converts a color image to a gray image 
+
+#### Usage
+**Go to directory**
+- cd 1-Basic-App
+
+**Build Docker images**
+- docker build -t test-ski .
+
+**Run Docker images with some parameters like volume**
+- docker run -it --rm -v "$(pwd)"/app:/app/ --name test test-ski
