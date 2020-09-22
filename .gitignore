@@ -1,8 +1,6 @@
 .ipynb_checkpoints
-tfx
+.vscode
 notebooks
 images
-.vscode
-.ipynb_checkpoints
 example
 datasets
