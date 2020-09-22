@@ -6,3 +6,4 @@ images
 .ipynb_checkpoints
 example
 datasets
+tests
