@@ -18,4 +18,4 @@ It is a simple regression model. It uses famous house price data.The model archi
  
 ## B. Second Stage : `MLOps level 1: Pipeline`
 
-**To DO**
+**To Do**
