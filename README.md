@@ -12,8 +12,8 @@ It is a simple regression model. It uses famous house price data.The model archi
   
   - There are three main parts like `data processing,training and prediction`.
   - `pipeline` : scikit-learn - model is saved as pipeline
-  - `Docker` : model prediction service is a docker images
-  - `.yml` format : model config files   
+  - `Docker` : model prediction service is a docker image
+  - `.yml`:format of model config files    
   
  
 ## B. Second Stage : `MLOps level 1: Pipeline`
