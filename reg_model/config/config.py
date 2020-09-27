@@ -34,6 +34,8 @@ class TrainConfig(BaseModel):
     target_name:str
     model_name:str
     model_version:str
+    
+    model_metrics:t.Sequence[str]
 
     
         

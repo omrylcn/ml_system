@@ -4,6 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
+from lightgbm import LGBMRegressor
 
 
 from reg_model.preprocessing.preprocessors import CombinedAttributesAdder
@@ -17,6 +18,7 @@ from reg_model import pipeline
 
 ftc=config.create_feature_config()
 
+# numerical attributes
 num_pipeline = Pipeline(
     [
         (
@@ -33,7 +35,8 @@ num_pipeline = Pipeline(
     ])
 
 
-full_pipeline = ColumnTransformer(
+# numerical and categorical attributes
+processing_pipeline = ColumnTransformer(
     [
         (
             "num", num_pipeline,
@@ -44,3 +47,16 @@ full_pipeline = ColumnTransformer(
             , ftc.cat_attribs),
     ])
 
+
+# full pipeline processing and ml-model
+full_pipeline = Pipeline(
+    [
+        (
+            "preprocessing",
+            processing_pipeline,
+            ),
+        (
+            "model",
+            LGBMRegressor()
+        )
+    ],verbose=1)
