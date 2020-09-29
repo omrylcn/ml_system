@@ -1,0 +1,18 @@
+include *.txt
+include *.md
+include *.cfg
+include *.pkl
+include *.csv
+
+recursive-include ./reg_model/*
+
+include reg_model/datasets/*.csv
+include reg_model/trained_model/*.pkl
+include reg_model/VERSION
+include reg_model/*.yml
+
+include ./requirements.txt
+exclude *.log
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]S

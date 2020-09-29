@@ -5,6 +5,7 @@ from reg_model.preprocessing.data_management import load_dataset,load_pipeline
 from reg_model.predict import make_prediction
 from sklearn.metrics import r2_score
 
+train_pipeline.run_train()
 
 trc=config.trc
 
