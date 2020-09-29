@@ -36,3 +36,14 @@ def save_pipeline(*,pipeline_to_persist:Pipeline,trained_model_path:str,model_na
     #remove_old_pipelines(files_to_keep=[save_file_name])
     joblib.dump(pipeline_to_persist, save_path)
     _logger.info(f"saved pipeline: {save_file_name}")
+
+def load_pipeline(*, trained_model_path:str,model_name:str) -> Pipeline:
+    
+    """
+    Load a persisted pipeline.
+    """
+
+    file_name=f"{model_name}.pkl"
+    file_path=trained_model_path/file_name
+    trained_model = joblib.load(filename=file_path)
+    return trained_model

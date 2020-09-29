@@ -31,8 +31,10 @@ def run_train()->None:
     m_pipe=pipeline.full_pipeline
 
     # train data with cross validation
+    m_pipe.fit(X_tr,y_tr)
     results=cross_validate(m_pipe,X_tr,y_tr,scoring=trc.model_metrics)
-
+   
+    
     # val score 
     #print(f"Test data {trc.model_metrics[0]}: results",results["test_"+trc.model_metrics[0]])
     _logger.info(f"Test data {trc.model_metrics[0]}: results",results["test_"+trc.model_metrics[0]])
@@ -41,3 +43,5 @@ def run_train()->None:
     save_pipeline(pipeline_to_persist=m_pipe,
                       trained_model_path=config.TRAINED_MODEL_PATH,
                       model_name=f"pipe_{trc.model_name}_{trc.model_version}")
+
+                  
