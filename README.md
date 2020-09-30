@@ -14,10 +14,6 @@ This part provides a basic primative ML-project. It is similar reference article
 
 ![firt_part](https://cloud.google.com/solutions/images/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning-2-manual-ml.svg)
 
-### Notes
-
-- There is a python package(whl file) that is called reg_model in `dist` folder. It can be installed via `pip`.
-- To run `docker files`  checks `notes.md` in docker folder.
 
 ### Summary of the model
 
@@ -25,6 +21,12 @@ This part provides a basic primative ML-project. It is similar reference article
 - `pipeline` : scikit-learn - model is saved as pipeline
 - `Docker` : model prediction service is a docker image  
 - `.yml`:format of model config files
+
+
+### Notes
+
+- There is a python package(whl file) that is called reg_model in `dist` folder. It can be installed via `pip`.
+- To run `docker files`  checks `notes.md` in docker folder.
 
 ### To Do List
 
