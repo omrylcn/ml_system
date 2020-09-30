@@ -1,7 +1,7 @@
 # Dockerfiles guide
 
 ## Dev.Dockerfile
-- Training and development dockerfiles.
+- Training and development dockerfile.
 - Commands to run
   - `docker build . -t test-reg -f Dev.Dockerfile`
   - `docker run -it --rm --name test test-reg`
