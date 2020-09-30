@@ -4,5 +4,5 @@
 - Training and development dockerfiles.
 - Commands to run
   - `docker build . -t test-reg -f Dev.Dockerfile`
-  - `docker run -ir --rm --name test test-reg`
-  - If enter  contanier run this : `docker run -ir --rm --name test test-reg /bin/bash`
+  - `docker run -it --rm --name test test-reg`
+  - If enter  contanier run this : `docker run -it --rm --name test test-reg /bin/bash`
