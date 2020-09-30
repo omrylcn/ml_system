@@ -6,3 +6,11 @@ examples
 dataset
 tests
 trial.py
+
+reg_model/__pycache__
+reg_model/config/__pycache__
+reg_model/preprocessing/__pycache__
+
+reg_model.egg-info
+dockers
+build
