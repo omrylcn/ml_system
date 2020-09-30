@@ -10,14 +10,14 @@ It is a ML system project.This repo aims to show how it be MLOps & CI/CD practic
 
 ## A. Firt Stage : `MLOps level 0: Manual process`
 
-This part provides a basic primative ML-project. It is similar reference article. It is a regression model. It uses famous house price data. The model architecture schema looks like below image.
+This part provides a basic primative ML-project. It is similar reference article. It is a regression model. It uses famous house-price data. The model schema looks like below image.
 
 ![firt_part](https://cloud.google.com/solutions/images/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning-2-manual-ml.svg)
 
 ### Notes
 
-- There is a python package(whl file) that is called reg_model.It can be installed via 'pip'.
-- To run docker files, check "notes.md" in docker folder.
+- There is a python package(whl file) that is called reg_model. It can be installed via `pip`.
+- To run `docker files`  checks "notes.md" in docker folder.
 
 ### Summary of the model
 
