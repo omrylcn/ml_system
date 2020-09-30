@@ -26,6 +26,12 @@ This part provides a basic primative ML-project. It is similar reference article
 - `Docker` : model prediction service is a docker image  
 - `.yml`:format of model config files
 
+### To Do List
+
+- [x] Model Training
+- [x] Model Saving and Making Package
+- [ ] Model Serving
+
 ## B. Second Stage : `MLOps level 2: Pipeline` (To do)
 
 ## C. Third Stage : `MLOps level 3: CI&CD` (To do)
