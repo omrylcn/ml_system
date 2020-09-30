@@ -16,8 +16,8 @@ This part provides a basic primative ML-project. It is similar reference article
 
 ### Notes
 
-- There is a python package(whl file) that is called reg_model. It can be installed via `pip`.
-- To run `docker files`  checks "notes.md" in docker folder.
+- There is a python package(whl file) that is called reg_model in `dist` folder. It can be installed via `pip`.
+- To run `docker files`  checks `notes.md` in docker folder.
 
 ### Summary of the model
 
