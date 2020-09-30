@@ -26,9 +26,9 @@ This part provides a basic primative ML-project. It is similar reference article
 - `Docker` : model prediction service is a docker image  
 - `.yml`:format of model config files
 
-## B. Second Stage : `MLOps level 2: Pipeline`
+## B. Second Stage : `MLOps level 2: Pipeline` (To do)
 
-## C. Third Stage : `MLOps level 3: CI&CD`
+## C. Third Stage : `MLOps level 3: CI&CD` (To do)
 
 ## References
 
@@ -38,5 +38,3 @@ This part provides a basic primative ML-project. It is similar reference article
 
 - <https://github.com/solegalli/deploying-machine-learning-models>
 
-
-**To Do**
