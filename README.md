@@ -8,7 +8,7 @@ It is a ML system project.This repo aims to show how it be MLOps & CI/CD practic
 
 - Third stage is final stage. It contains modern ML-system project that is gained some modern skill and abilities like MLOps, CI&CD and data pipelines.
 
-## A. Firt Stage : `MLOps level 0: Manual process`
+## A. Firt Stage : `MLOps level 1: Manual process`
 
 This part provides a basic primative ML-project. It is similar reference article. It is a regression model. It uses famous house-price data. The model schema looks like below image.
 
