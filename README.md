@@ -12,7 +12,11 @@ It is a ML system project.This repo aims to show how it be MLOps & CI/CD practic
 
 This part provides a basic primative ML-project. It is similar reference article. It is a regression model. It uses famous house-price data. The model schema looks like below image.
 
+<<<<<<< HEAD
  ![firt_part](images/ml-level-1.png)
+=======
+ ![firt_part](images/ml-ops-level-1.png)
+>>>>>>> c2e680ce84fabd1479ac4f338109fbc56abeb613
 
 
 ### Summary of the model
