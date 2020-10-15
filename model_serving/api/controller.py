@@ -1,9 +1,10 @@
 from flask import Blueprint, request, jsonify
+
 import numpy as np
 import pandas as pd 
 import pickle
 from reg_model.predict import make_prediction
-from reg_model import __version__ as _version
+#from reg_model import __version__ as _version
 
 
 from api.config import get_logger
@@ -66,19 +67,9 @@ def predict():
         result=make_prediction(data=data)
         _logger.debug(f'Outputs: {result}')
         
+        # Step 4: Return the response as JSON
         return jsonify({"state":"ok",
                         "return":result.tolist(),
                         "errors":errors})
 
-        # Step 3: Model prediction
-        result = make_prediction(data=input_data)
-        _logger.debug(f'Outputs: {result}')
-
-        # Step 4: Convert numpy ndarray to list
-        predictions = result.get('predictions').tolist()
-        version = result.get('version')
-
-        # Step 5: Return the response as JSON
-        return jsonify({'predictions': predictions,
-                        'version': version,
-                        'errors': errors})
+        

@@ -1,0 +1,13 @@
+
+
+# api
+flask==1.0.2
+
+# schema validation
+pydantic==1.6.1
+
+#--wheel-dir=${PIP_EXTRA_PATH}
+# Install from gemfury
+#reg_model
+#reg-model==0.1
+
