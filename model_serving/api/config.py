@@ -58,6 +58,7 @@ class ProductionConfig(Config):
 class DevelopmentConfig(Config):
     DEVELOPMENT = True
     DEBUG = True
+    HOST = "0.0.0.0"
 
 
 class TestingConfig(Config):

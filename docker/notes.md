@@ -15,5 +15,5 @@
 - Serving File to predict data.
 - Commands to run
   - `docker build . -t test-pred -f Pred.Dockerfile`
-  - `docker run -it --rm --name test test-pred`
-  - If enter  contanier run this : `docker run -it --rm --name test test-pred /bin/bash`
+  - `docker run -it --rm --name test  -p 5000:5000 test-pred`
+  - If enter  contanier run this : `docker run -it --rm --name test -p 5000:5000  test-pred /bin/bash`

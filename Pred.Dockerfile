@@ -28,7 +28,7 @@ RUN pip3 install -r model_serving/requirements.txt
 RUN pip3 install model_serving/package/$(ls model_serving/package|grep .whl)
 
   
-WORKDIR  /app/model_serving/api
+WORKDIR  /app/model_serving/
 
 
-CMD ["python3","app.py"]
+CMD ["python3","test.py"]

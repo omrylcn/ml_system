@@ -3,7 +3,7 @@ from flask import Blueprint, request, jsonify
 import numpy as np
 import pandas as pd 
 import pickle
-from reg_model.predict import make_prediction
+#from reg_model.predict import make_prediction
 #from reg_model import __version__ as _version
 
 
@@ -31,7 +31,7 @@ _version="0.1" # dummy version
 @prediction_app.route('/version', methods=['GET'])
 def version():
     if request.method == 'GET':
-        return jsonify({'model_version': _version,
+        return jsonify({#'model_version': _version,
                         'api_version': api_version})
 
 
