@@ -17,3 +17,4 @@
   - `docker build . -t test-pred -f Pred.Dockerfile`
   - `docker run -it --rm --name test  -p 5000:5000 test-pred`
   - If enter  contanier run this : `docker run -it --rm --name test -p 5000:5000  test-pred /bin/bash`
+  - Mount mode`docker run -it --rm --name test -p 5000:5000 -v ${pwd}/model_serving:/app/model_serving  test-pred`

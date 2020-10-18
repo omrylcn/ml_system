@@ -15,4 +15,4 @@ def test_json():
         return jsonify({"test_json":"ok"})
 
 if __name__ == "__main__":
-    test_app.run()
+    test_app.run(debug=True,host="0.0.0.0")

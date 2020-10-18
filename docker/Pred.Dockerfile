@@ -14,12 +14,10 @@ RUN cd LightGBM/python-package && python setup.py install && apt-get autoremove 
   
 WORKDIR  /app 
 
-
 COPY model_serving model_serving
 
 # not use !
 #ENV PIP_EXTRA_PATH=/app/model_serving/package
-
 
 # install server packages
 RUN pip3 install -r model_serving/requirements.txt
@@ -27,8 +25,6 @@ RUN pip3 install -r model_serving/requirements.txt
 # install model packages
 RUN pip3 install model_serving/package/$(ls model_serving/package|grep .whl)
 
-  
 WORKDIR  /app/model_serving/
 
-
-CMD ["python3","test.py"]
+CMD ["python3","app.py"]

@@ -21,4 +21,5 @@ model_serving/support_files
 model_serving/logs
 model_serving/data
 model_serving/__pycache__
+model_serving/api/__pycache__
 

@@ -3,6 +3,7 @@ from logging.handlers import TimedRotatingFileHandler
 import pathlib
 import os
 import sys
+from pydantic import BaseConfig,BaseModel
 
 PACKAGE_ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -42,24 +43,28 @@ def get_logger(*, logger_name):
     return logger
 
 
-class Config:
-    DEBUG = False
-    TESTING = False
-    CSRF_ENABLED = True
-    SECRET_KEY = 'this-really-needs-to-be-changed'
-    SERVER_PORT = 5000
+class Config(BaseModel):
+    debug = False
+    #TESTING = False
+    #CSRF_ENABLED = True
+    #SECRET_KEY = 'this-really-needs-to-be-changed'
+    port=3000
+    #SERVER_PORT = 4000
 
 
 class ProductionConfig(Config):
-    DEBUG = False
-    SERVER_PORT = os.environ.get('PORT', 5000)
+    debug = False
+    port = os.environ.get('PORT', 5000)
+    host="0.0.0.0"
 
 
 class DevelopmentConfig(Config):
-    DEVELOPMENT = True
-    DEBUG = True
-    HOST = "0.0.0.0"
+    #DEVELOPMENT = True
+    debug = True
+    port=5000
+    #host="172.17.0.2" #for docker 
+    host = "0.0.0.0"
+    
 
-
-class TestingConfig(Config):
-    TESTING = True
+#class TestingConfig(Config):
+#    TESTING = True
