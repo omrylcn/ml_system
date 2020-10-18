@@ -10,10 +10,10 @@ dockers
 build
 
 
-reg_model/__pycache__
-reg_model/config/__pycache__
-reg_model/preprocessing/__pycache__
-reg_model.egg-info
+development/reg_model/__pycache__
+development/reg_model/config/__pycache__
+development/reg_model/preprocessing/__pycache__
+development/reg_model.egg-info
 
 
 model_serving/legacy_files
