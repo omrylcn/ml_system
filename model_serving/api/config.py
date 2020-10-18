@@ -33,9 +33,7 @@ def get_logger(*, logger_name):
     """Get logger with prepared handlers."""
 
     logger = logging.getLogger(logger_name)
-
     logger.setLevel(logging.INFO)
-
     logger.addHandler(get_console_handler())
     logger.addHandler(get_file_handler())
     logger.propagate = False
@@ -45,11 +43,8 @@ def get_logger(*, logger_name):
 
 class Config(BaseModel):
     debug = False
-    #TESTING = False
-    #CSRF_ENABLED = True
-    #SECRET_KEY = 'this-really-needs-to-be-changed'
     port=3000
-    #SERVER_PORT = 4000
+ 
 
 
 class ProductionConfig(Config):
@@ -59,12 +54,8 @@ class ProductionConfig(Config):
 
 
 class DevelopmentConfig(Config):
-    #DEVELOPMENT = True
     debug = True
     port=5000
-    #host="172.17.0.2" #for docker 
     host = "0.0.0.0"
+    #host="172.17.0.2" #for docker 
     
-
-#class TestingConfig(Config):
-#    TESTING = True
