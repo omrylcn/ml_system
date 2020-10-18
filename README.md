@@ -11,7 +11,8 @@ It is a ML system project.This repo aims to show how it be MLOps & CI/CD practic
 ## A. Firt Stage : `MLOps level 1: Manual process`
 
 This part provides a basic primative ML-project. It is similar reference article. It is a regression model. It uses famous house-price data. The model schema looks like below image.
-**Check branch:level-1-regression-model**
+
+**Check `level-1-regression-model` branch**
 
 ![firt_part](image/ml-level-1.png)
 =======
