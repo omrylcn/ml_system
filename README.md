@@ -15,8 +15,8 @@ This part provides a basic primative ML-project. It is similar reference article
 
 ## Notes
 
-- There is a python package(wheel file) that is called reg_model in `local_area/package_files/dist` path. It can be installed via `pip`.
-- To run `docker files`  checks `notes.md` in docker folder.
+- There is a python package(wheel file) that is called reg_model in `package_files` folder. It can be installed via `pip`.
+- To run `docker files`  reads `notes.md` in docker folder.
 
 ## To Do List
 
