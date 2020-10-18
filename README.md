@@ -12,7 +12,7 @@ It is a ML system project.This repo aims to show how it be MLOps & CI/CD practic
 
 This part provides a basic primative ML-project. It is similar reference article. It is a regression model. It uses famous house-price data. The model schema looks like below image.
 
-**Check `level-1-regression-model` branch**
+**Check [`level-1-regression-model`](https://github.com/omrylcn/ml_system/tree/level-1-regression-model) branch**
 
 ![firt_part](image/ml-level-1.png)
 =======
