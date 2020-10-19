@@ -3,7 +3,7 @@
 ![firt_part](docs/image/diagrams-Page-3.png)
 =======
 
-## Summary of the model
+## Summary of Model
 
 ## Notes
 
