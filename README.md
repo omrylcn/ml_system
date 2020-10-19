@@ -5,7 +5,7 @@ This part provides a basic primative ML-project. It is similar reference article
 ![firt_part](docs/image/ml-level-1.png)
 =======
 
-## Summary of the model
+## Summary
 
 - There are three main parts like `data processing,training and prediction`.
 - `pipeline` : scikit-learn - model is saved as pipeline
