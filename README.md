@@ -24,7 +24,7 @@ This is next level ML project. It includes pipeline stucture with dockers and di
 
 **Check  [`level-2-pipeline&test`](https://github.com/omrylcn/ml_system/tree/level-2-pipeline%26test) branch** 
 
-## C. Third Stage : `MLOps level 3: CI&CD` (To do)
+## C. Third Stage : `MLOps level 3 : CI&CD` (To do)
 
 ## References
 
