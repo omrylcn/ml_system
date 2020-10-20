@@ -16,9 +16,9 @@ This part provides a basic primative ML-project. It is similar reference article
 
 **Check  [`level-1-regression-model`](https://github.com/omrylcn/ml_system/tree/level-1-regression-model) branch**
 
-## B. Second Stage : `MLOps level 2 : Pipeline & Test 
+## B. Second Stage : `MLOps level 2 : Pipeline & Test` 
 
-This is next level ML project. It includes pipeline stucture with dockers and different level test. Also there is a independent training part that is updated by  local-area works. It uses [rossman-store sales](https://www.kaggle.com/c/rossmann-store-sales) data. The model schema looks like below image.   
+This is next level ML project. It includes pipeline stucture with dockers and different level test. Also there is a independent training part that is updated by  local-area works. It uses [rossman-store sales](https://www.kaggle.com/c/rossmann-store-sales) data. ML system schema looks like below image.   
 
 ![second_part](doc/image/ml-level-2.png)
 
