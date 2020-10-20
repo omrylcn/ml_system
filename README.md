@@ -17,7 +17,11 @@ This part provides a basic primative ML-project. It is similar reference article
 ![firt_part](image/ml-level-1.png)
 =======
 
-## B. Second Stage : `MLOps level 2: Pipeline` (To do)
+## B. Second Stage : `MLOps level 2: Pipeline`
+
+This is next level ML project. It includes pipeline stucture with dockers and different level test. Also there is a independent training part that is updated by  local-area works. It uses [rossman-store sales](https://www.kaggle.com/c/rossmann-store-sales) data. The model schema looks like below image.   
+
+**Check  [`level-2-pipeline&test`](https://github.com/omrylcn/ml_system/tree/level-2-pipeline%26test)**
 
 ## C. Third Stage : `MLOps level 3: CI&CD` (To do)
 
