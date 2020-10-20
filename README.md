@@ -10,3 +10,11 @@
 ## How Run
 
 ## To Do List
+- [ ] Training Life Cycles Notebooks
+- [ ] Model Template Scripts
+- [ ] Training Testing Structure
+- [ ] Pipeline + Dockers
+- [ ] Model Training + Trained Model
+- [ ] Prodcution Testing Structure
+- [ ] Serving + API  
+- [ ] Monitoring
