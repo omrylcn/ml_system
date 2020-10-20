@@ -12,29 +12,11 @@ It is a ML system project.This repo aims to show how it be MLOps & CI/CD practic
 
 This part provides a basic primative ML-project. It is similar reference article. It is a regression model. It uses famous house-price data. The model schema looks like below image.
 
-![firt_part](doc/image/ml-level-1.png)
-=======
+![second_part](doc/image/ml-level-2.png)
 
-### Summary of the model
+This is next level ML project. It includes pipeline stucture with dockers and different level test. Also there is a independent training part that is updated by  local-area works. It uses [rossman-store sales](https://www.kaggle.com/c/rossmann-store-sales) data. The model schema looks like below image.   
 
-- There are three main parts like `data processing,training and prediction`.
-- `pipeline` : scikit-learn - model is saved as pipeline
-- `Docker` : model prediction service is a docker image  
-- `.yml`:format of model config files
-
-
-### Notes
-
-- There is a python package(whl file) that is called reg_model in `dist` folder. It can be installed via `pip`.
-- To run `docker files`  checks `notes.md` in docker folder."
-
-### To Do List
-
-- [x] Model Training
-- [x] Model Saving and Making Package
-- [ ] Model Serving
-
-## B. Second Stage : `MLOps level 2: Pipeline` (To do)
+**Check  [`level-2-pipeline&test`](https://github.com/omrylcn/ml_system/tree/level-2-pipeline%26test)**
 
 ## C. Third Stage : `MLOps level 3: CI&CD` (To do)
 
