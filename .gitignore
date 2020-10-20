@@ -1,14 +1,6 @@
 .ipynb_checkpoints
 .vscode
-notebook
-images
-examples
-dataset
-tests
-trial.py
 
 
 
-reg_model.egg-info
-dockers
-build
+
